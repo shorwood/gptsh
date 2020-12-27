@@ -26,10 +26,7 @@ module.exports = async (prompt, options = {}) => {
 	openai.defaults.headers.common['Authorization'] = `Bearer ${secret}`
 
 	//--- Query the GPT-3 API.
-	let { choices } = await openai.post(`/engines/${engineId}/completions`, {prompt, ...payload})
-		.catch(err => console.error(err.response.data || err.message))
-		.then(res => res.data)
-
-	//--- Parse the output data.
-	return map(choices, 'text')
+	return await openai.post(`/engines/${engineId}/completions`, {prompt, ...payload})
+		.then(res => map(res.data.choices, 'text'))
+		.catch(err => console.error(err.response.data.error.message || err.message))
 }
