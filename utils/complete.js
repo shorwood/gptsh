@@ -2,30 +2,33 @@
 //--- Import dependencies.
 const map = require('lodash/map')
 const pick = require('lodash/pick')
-const openai = require('../services/openai')
+const axios = require('axios')
+
+//--- Create an axios instance to query to.
+const openai = axios.create({
+	baseURL: 'https://api.openai.com/v1',
+	headers: {'Content-Type': 'application/json'}
+})
 
 module.exports = async (prompt, options = {}) => {
 
 	//--- Parse options.
+	const secret = options.secret
 	const engineId = options.engineId
 	const payload = pick(options, [
-		'max_tokens',
-		'temperature',
-		'top_p',
-		'n',
-		'stream',
-		'logprobs',
-		'echo',
-		'stop',
-		'presence_penalty',
-		'frequency_penalty',
-		'best_of',
-		'logit_bias'
-	 ])
+		'max_tokens', 'temperature', 'top_p',
+		'n', 'stream', 'logprobs', 'echo',
+		'stop', 'presence_penalty', 'frequency_penalty',
+		'best_of', 'logit_bias'
+	])
+
+	//--- Set OpenAI Secret API Key.
+	openai.defaults.headers.common['Authorization'] = `Bearer ${secret}`
 
 	//--- Query the GPT-3 API.
-	let { choices } = await openai.complete(engineId, {prompt, ...payload})
+	let { choices } = await openai.post(`/engines/${engineId}/completions`, {prompt, ...payload})
 		.catch(err => console.error(err.response.data || err.message))
+		.then(res => res.data)
 
 	//--- Parse the output data.
 	return map(choices, 'text')
