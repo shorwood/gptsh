@@ -1,6 +1,7 @@
 
 //--- Import dependencies.
 const rc = require('rc')
+const dotenv = require('dotenv').config()
 const defaults = require('lodash/defaults')
 const { name: appName } = require('../package.json');
 

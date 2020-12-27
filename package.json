@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
     "inquirer": "^7.3.3",
     "lodash": "^4.17.20",
     "rc": "^1.2.8",
