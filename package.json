@@ -1,0 +1,28 @@
+{
+  "name": "gpt3sh",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./bin/index.js",
+  "bin": {
+    "gpt3sh": "./bin/index.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "inquirer": "^7.3.3",
+    "lodash": "^4.17.20",
+    "rc": "^1.2.8",
+    "shelljs": "^0.8.4",
+    "terminal-kit": "^1.44.0",
+    "yargs": "^16.2.0",
+    "yargs-interactive": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

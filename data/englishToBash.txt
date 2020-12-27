@@ -1,0 +1,22 @@
+> List all files of the root director
+# ls /
+
+> Initialize a new git repository
+$ git init
+
+> Get the current directory
+$ pwd
+
+> Print the .env file
+$ cat .env
+
+> Install lodash locally using yarn
+$ yarn add lodash
+
+> Reset the ouput
+$ clear
+
+> Output the package.json file
+$ cat package.json
+
+> {{input}}
