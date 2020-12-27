@@ -16,7 +16,22 @@ $ yarn add lodash
 > Reset the ouput
 $ clear
 
-> Output the package.json file
-$ cat package.json
+> Output the readme.md file
+$ cat readme.md
+
+> Set up flatpak
+$ sudo apt install flatpak
+
+> Remove Firefox
+$ apt-get purge firefox
+
+> Print 204 + 423
+$ echo "204 + 423" | bc
+
+> Add Docker GPG key
+$ curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
+
+> Install Docker
+$ curl -fsSL https://get.docker.com | sudo sh
 
 > {{input}}
