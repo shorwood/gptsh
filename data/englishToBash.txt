@@ -25,6 +25,9 @@ $ sudo apt install flatpak
 > Remove Firefox
 $ apt-get purge firefox
 
+> Deploy MyClass.cls to Salesforce
+$ sfdx force:source:deploy -p MyClass.cls
+
 > Print 204 + 423
 $ echo "204 + 423" | bc
 
