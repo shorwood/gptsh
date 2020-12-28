@@ -33,7 +33,7 @@ const appConfig = buildConfig({
 
 //---  Build the prompt.
 const input = argv._.join(' ')
-const context = data.englishToBash
+const context = data.magnum
 const prompt = context.replace('{{input}}', input)
 
 //--- Compute the apporpirate shell command and output it.

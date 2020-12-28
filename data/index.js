@@ -6,5 +6,6 @@ const fs = require('fs')
 const requireText = filename => fs.readFileSync(require.resolve(filename)).toString();
 
 module.exports = {
-    englishToBash: requireText('./englishToBash.txt')
+    simple: requireText('./simple.txt'),
+    magnum: requireText('./magnum.txt'),
 }
