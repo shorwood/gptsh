@@ -25,7 +25,7 @@ const defaultOptions = {
 
 //--- Get options from environment variables.
 const environmentOptions = {
-    secret: process.env.OPENAI_SECRET,
+    secret: process.env.OPENAI_SECRET_KEY,
     engineId: process.env.OPENAI_ENGINE_ID,
 }
 
