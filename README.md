@@ -10,6 +10,14 @@ GPT.sh is a cross platform CLI tool built with NodeJS and powered by [Open AI's 
 
 This tool is not meant as a complete replacement for all of you shell commands. It's role is to integrate into your standard shell workflow to help you make generic task which commands you dont know by heart. For example, when compressing or uncompressing a files, using new frameworks, searching files on your system and much more...
 
+## • Demo
+
+<p align="center">
+  <a href="https://github.com/shorwood/gptsh">
+    <img src="assets/gptsh.gif" alt="GPT.sh" width="836" height="418">
+  </a>
+</p>
+
 ## • Installation
 
 Use the package manager NPM or Yarn to install GPT.sh globally on your system.
