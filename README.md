@@ -14,7 +14,7 @@ sudo npm install --global gptsh
 yarn global add gptsh
 ```
 
-To use this tool, you need an (OpenAI API key)[https://beta.openai.com/]. You can define this key in an option in the command line or via environment variables.
+To use this tool, you need an (https://beta.openai.com/)[OpenAI API key]. You can define this key in an option in the command line or via environment variables.
 ```bash
 OPENAI_SECRET_KEY=<YOUR_SECRET_KEY>
 OPENAI_ENGINE_ID=davinci
