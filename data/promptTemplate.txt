@@ -1,0 +1,40 @@
+> list all files of the root director
+# ls /
+
+> initialize a new git repository
+$ git init
+
+> get the current directory
+$ pwd
+
+> print the .env file
+$ cat .env
+
+> install lodash locally using yarn
+$ yarn add lodash
+
+> reset the ouput
+$ clear
+
+> Show the readme
+$ cat readme.md
+
+> Install essential build packages
+$ sudo apt-get install -y build-essential
+
+> remove Firefox
+$ apt-get purge firefox
+
+> deploy MyClass.cls to Salesforce
+$ sfdx force:source:deploy -p MyClass.cls
+
+> print 204 + 423
+$ echo "204 + 423" | bc
+
+> install Docker
+$ curl -fsSL https://get.docker.com | sudo sh
+
+> Add a new user
+$ sudo useradd username
+
+> {{input}}

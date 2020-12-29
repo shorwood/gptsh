@@ -9,7 +9,7 @@ const { name: appName } = require('../package.json');
 const defaultOptions = {
     secret: null,
     engineId: 'davinci',
-    max_tokens: 32,
+    max_tokens: 100,
     temperature: 0.1,
     top_p: undefined,
     n: undefined,
@@ -21,6 +21,7 @@ const defaultOptions = {
     frequency_penalty: undefined,
     best_of: undefined,
     logit_bias: undefined,
+    platform: process.platform,
 }
 
 //--- Get options from environment variables.
