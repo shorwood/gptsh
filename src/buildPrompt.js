@@ -11,12 +11,13 @@ module.exports = (input, options = {}) => {
 
     switch(options.platform){
         case 'aix': input += ' on IBM AIX'; break;
-        case 'darwin': input += ' in Apple OSX'; break;
+        case 'linux': input += ' on Linux'; break;
+        case 'darwin': input += ' on Apple OSX'; break;
         case 'win32': input += ' with PowerShell'; break;
-        case 'freebsd': input += ' with FreeBSD'; break;
-        case 'openbsd': input += ' with OpenBSD'; break;
-        case 'sunos': input += ' with Sunos'; break;
-        case 'cmd': input += ' with Windows CMD'; break;
+        case 'freebsd': input += ' on FreeBSD'; break;
+        case 'openbsd': input += ' on OpenBSD'; break;
+        case 'sunos': input += ' on Sunos'; break;
+        case 'cmd': input += ' with Windows Command Prompt'; break;
     }
 
     //--- Insert the input in the template

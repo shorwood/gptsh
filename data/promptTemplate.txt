@@ -7,6 +7,18 @@ $ git init
 > get the current directory
 $ pwd
 
+> get the current directory IBM AIX
+$ pwd
+
+> Stop HTTP Server on IBM AIX
+$ /usr/IBM/HTTPServer/bin/apachectl stop
+
+> Show hidden files in Finder on Apple OSX
+$ defaults write com.apple.finder AppleShowAllFiles TRUE
+
+> get the current directory Apple OSX
+$ pwd
+
 > print the .env file
 $ cat .env
 
@@ -36,8 +48,5 @@ $ curl -fsSL https://get.docker.com | sudo sh
 
 > Add a new user
 $ sudo useradd username
-
-> Stop HTTP Server on IBM AIX
-$ /usr/IBM/HTTPServer/bin/apachectl stop
 
 > {{input}}
