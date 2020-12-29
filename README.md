@@ -38,7 +38,7 @@ Options:
   -e, --engine       ID of the engine to use                            [string]
   -t, --tokens       Maximum number of tokens to consume [number] [default: 100]
       --temperature  Higher values means the model will take more risks
-                                                         [number] [default: 0.1]
+                                                         [number] [default: 0.0]
   -p, --platform     Platform of the command to output                  [string]
   -n                 Number of completions to generate                  [number]
       --help         Show help                                         [boolean]
