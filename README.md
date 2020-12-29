@@ -1,5 +1,13 @@
 # GPT.sh - Hello, Dave.
 
+<p align="center">
+  <a href="https://github.com/shorwood/gptsh">
+    <img src="assets/gptsh-logo.png" alt="GPT.sh" width="120" height="120">
+  </a>
+
+  <h3 align="center">GPT.sh</h3>
+</p>
+
 GPT.sh is a CLI tool build with NodeJs and powered by [Open AI's GPT-3](https://openai.com/). It's main purpose is to translate natural language questions and requests into Bash and Powershell commands. Heavily inspired by projects such as [nlsh](https://vimeo.com/427943407/98fe5258a7) and [cmdxyz](https://cmd.xyz/), it can be easily installed and used in conjunction with your classic shell environment.
 
 ## Installation
@@ -14,7 +22,7 @@ sudo npm install --global gptsh
 yarn global add gptsh
 ```
 
-To use this tool, you need an (OpenAI API key)[https://beta.openai.com/]. You can define this key in an option in the command line or via environment variables.
+To use this tool, you need an (https://beta.openai.com/)[OpenAI API key]. You can define this key in an option in the command line or via environment variables.
 ```bash
 OPENAI_SECRET_KEY=<YOUR_SECRET_KEY>
 OPENAI_ENGINE_ID=davinci
