@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://github.com/shorwood/gptsh">
-    <img src="assets/gptsh.png" alt="GPT.sh" width="960" height="480">
+    <img src="assets/gptsh.png" alt="GPT.sh" width="836" height="418">
   </a>
 </p>
 
