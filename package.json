@@ -1,13 +1,10 @@
 {
   "name": "gptsh",
-  "version": "1.0.0",
-  "description": "",
-  "main": "./src/index.js",
+  "version": "1.0.1",
+  "description": "GPT.sh is a CLI tool build with NodeJs and powered by Open AI's GPT-3. It's main purpose is to translate natural language questions and requests into Bash and Powershell commands.",
+  "homepage": "https://github.com/shorwood/gptsh#readme",
   "bin": {
     "gptsh": "./src/index.js"
-  },
-  "directories": {
-    "lib": "lib"
   },
   "dependencies": {
     "axios": "^0.21.1",
@@ -16,10 +13,10 @@
     "rc": "^1.2.8",
     "yargs": "^16.2.0"
   },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "author": { 
+    "name" : "Stanley Horwood", 
+    "email" : "stanley@hsjm.io",
+    "url" : "http://hsjm.io/"
   },
-  "author": "",
-  "license": "ISC"
+  "license": "MIT"
 }
