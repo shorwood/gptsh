@@ -17,15 +17,18 @@ yarn global add gptsh
 ## Usage
 
 ```
-Usage: gptsh <query> [options]
+Usage: gptsh <input> [options]
 
 Options:
-      --version     Show version number                              [boolean]
-  -e, --engine      The ID of the engine to use for this request      [string]
-  -s, --secret      The OpenAI API API keys for authentication        [string]
-  -t, --max-tokens  The maximum number of tokens to generate          [number]
-  -n                How many completions to generate for each prompt. [number]
-      --help        Show help                                        [boolean]
+      --version      Show version number                               [boolean]
+  -s, --secret       OpenAI API key for authentication                  [string]
+  -e, --engine       ID of the engine to use                            [string]
+  -t, --tokens       Maximum number of tokens to consume [number] [default: 100]
+      --temperature  Higher values means the model will take more risks
+                                                         [number] [default: 0.1]
+  -p, --platform     Platform of the command to output                  [string]
+  -n                 Number of completions to generate                  [number]
+      --help         Show help                                         [boolean]
 ```
 
 ## Examples
@@ -52,6 +55,12 @@ rm -rf /
 ```bash
 $ gptsh Add remote from github with name shorwood/gptsh
 git remote add shorwood https://github.com/shorwood/gptsh.git
+```
+
+Oh, and it works for other platforms.
+```powershell
+PS C:\WINDOWS\system32> gptsh Add a new user with admin privileges -p win32
+New-ADUser -Name "username" -AccountPassword (Read-Host -AsSecureString "Password") -Enabled $true -ChangePasswordAtLogon $true -PasswordNeverExpires $true -Path "OU=Users,OU=Test,DC=test,DC=com"
 ```
 
 ## Contributing
