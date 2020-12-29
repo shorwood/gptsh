@@ -10,7 +10,7 @@ const defaultOptions = {
     secret: null,
     engineId: 'davinci',
     max_tokens: 100,
-    temperature: 0.1,
+    temperature: 0.0,
     top_p: undefined,
     n: undefined,
     stream: undefined,
