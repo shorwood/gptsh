@@ -69,10 +69,15 @@ $ gptsh Add remote from github with name shorwood/gptsh
 git remote add shorwood https://github.com/shorwood/gptsh.git
 ```
 
-Oh, and it works for other platforms.
+Oh, and it works for other platforms too.
 ```powershell
 PS C:\WINDOWS\system32> gptsh Add a new user --platform win32
 Add-ADUser -Name "username" -SamAccountName username -AccountPassword (Read-Host -AsSecureString "Password") -Enabled $true -ChangePasswordAtLogon $false
+```
+
+```powershell
+$ gptsh Add a new user --platform aix
+mkuser username
 ```
 
 ## Contributing
