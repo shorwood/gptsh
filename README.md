@@ -67,6 +67,11 @@ curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 ```
 
 ```bash
+$ gptsh add yarn bin folder to path on zsh
+echo 'export PATH="$HOME/.yarn/bin:$PATH"' >> ~/.zshrc
+```
+
+```bash
 $ gptsh List all files of this directory | bash
 LICENSE  data  node_modules  package.json  src  yarn.lock
 ```
