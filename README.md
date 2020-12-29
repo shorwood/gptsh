@@ -8,6 +8,8 @@
 
 GPT.sh is a CLI tool built with NodeJS and powered by [Open AI's GPT-3](https://openai.com/). It's main purpose is to translate natural language questions and requests into shell commands. Heavily inspired by projects such as [nlsh](https://vimeo.com/427943407/98fe5258a7) and [cmdxyz](https://cmd.xyz/), it can be easily installed and used in conjunction with your classic shell environment.
 
+This tool is not meant as a complete replacement for all of you shell commands. It's role is to integrate into your standard workflow to help you make rare generic task which commands you dont know by heart. For example, compressing or uncompressing a file, 
+
 ## Installation
 
 Use the package manager NPM or Yarn to install GPT.sh globally on your system.
@@ -19,11 +21,26 @@ npm install --global gptsh
 ```bash
 yarn global add gptsh
 ```
-To use this tool, you will need to set your [OpenAI API key](https://beta.openai.com/) as a parameter or environment variable.
+
+## Getting started
+To use this tool, you will need to set [OpenAI API key](https://beta.openai.com/) either as an environment variable.
 ```bash
 OPENAI_SECRET_KEY=<YOUR_SECRET_KEY>
 OPENAI_ENGINE_ID=davinci
 ```
+
+As a option while executing the command.
+```bash
+$ gptsh <input> --secret <YOUR_SECRET_KEY>
+```
+
+Or in the `~/.gptshrc` config file placed in your home directory.
+```ini
+secret=sk-XckwVRipQyM9nr1M8jVGGBUvDGIqwVmsbcrznkwz
+engine=davinci
+platform=linux
+```
+
 
 ## Usage
 
@@ -50,17 +67,17 @@ curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 ```
 
 ```bash
-$ List all files of this directory | bash
+$ gptsh List all files of this directory | bash
 LICENSE  data  node_modules  package.json  src  yarn.lock
 ```
 
 ```bash
-$ Install the lodash package using yarn --secret <YOUR_SECRET_KEY>
+$ gptsh Install the lodash package using yarn --secret <YOUR_SECRET_KEY>
 yarn add lodash
 ```
 
 ```bash
-$  Delete the root directory --engine ada
+$ gptsh Delete the root directory --engine ada
 rm -rf /
 ```
 
