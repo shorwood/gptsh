@@ -31,10 +31,13 @@ $ sfdx force:source:deploy -p MyClass.cls
 > print 204 + 423
 $ echo "204 + 423" | bc
 
-> install Docker
+> install Docker from script
 $ curl -fsSL https://get.docker.com | sudo sh
 
 > Add a new user
 $ sudo useradd username
+
+> Stop HTTP Server on IBM AIX
+$ /usr/IBM/HTTPServer/bin/apachectl stop
 
 > {{input}}
