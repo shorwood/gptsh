@@ -59,8 +59,8 @@ git remote add shorwood https://github.com/shorwood/gptsh.git
 
 Oh, and it works for other platforms.
 ```powershell
-PS C:\WINDOWS\system32> gptsh Add a new user with admin privileges -p win32
-New-ADUser -Name "username" -AccountPassword (Read-Host -AsSecureString "Password") -Enabled $true -ChangePasswordAtLogon $true -PasswordNeverExpires $true -Path "OU=Users,OU=Test,DC=test,DC=com"
+PS C:\WINDOWS\system32> gptsh Add a new user -p win32
+Add-ADUser -Name "username" -SamAccountName username -AccountPassword (Read-Host -AsSecureString "Password") -Enabled $true -ChangePasswordAtLogon $false
 ```
 
 ## Contributing
