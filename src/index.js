@@ -18,10 +18,10 @@ const argv = yargs(hideBin(process.argv))
 	.option('secret', {type: 'string', alias: 's', description: 'OpenAI API key for authentication'})
 	.option('engine', {type: 'string', alias: 'e', description: 'ID of the engine to use'})
 	.option('tokens', {type: 'number', alias: 't', description: 'Maximum number of tokens to consume', default: 100})
-	.option('temperature', {type: 'number',description: 'Higher values means the model will take more risks', default: 0.1})
+	.option('temperature', {type: 'number',description: 'Higher values means the model will take more risks', default: 0.0})
 	.option('platform', {type: 'string', alias: 'p', description: 'Platform of the command to output'})
 	.option('n', {type: 'number', description: 'Number of completions to generate'})
-	.demandCommand(1)
+	.demandCommand()
 	.help()
 	.argv
 
