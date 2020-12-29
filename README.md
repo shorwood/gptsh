@@ -13,7 +13,7 @@ GPT.sh is a CLI tool built with NodeJs and powered by [Open AI's GPT-3](https://
 Use the package manager NPM or Yarn to install GPT.sh globally on your system.
 
 ```bash
-sudo npm install --global gptsh
+npm install --global gptsh
 ```
 
 ```bash
