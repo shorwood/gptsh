@@ -1,4 +1,4 @@
-# GPT.sh - The tool that helps you to write commands easier.
+# GPT.sh - Hello Dave.
 
 GPT.sh is a CLI tool build with NodeJs and powered by [Open AI's GPT-3](https://openai.com/). It's main purpose is to translate natural language questions and requests into Bash and Powershell commands. Heavily inspired by projects such as [nlsh](https://vimeo.com/427943407/98fe5258a7) and [cmdxyz](https://cmd.xyz/), it can be easily installed and used in conjunction with your classic shell environment.
 
