@@ -14,7 +14,7 @@ This tool is not meant as a complete replacement for all of you shell commands. 
 
 <p align="center">
   <a href="https://github.com/shorwood/gptsh">
-    <img src="assets/gptsh.gif" alt="GPT.sh" width="836" height="418">
+    <img src="assets/gptsh.gif" alt="GPT.sh" width="836" height="238">
   </a>
 </p>
 
