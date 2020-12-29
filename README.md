@@ -10,7 +10,7 @@ GPT.sh is a CLI tool built with NodeJS and powered by [Open AI's GPT-3](https://
 
 This tool is not meant as a complete replacement for all of you shell commands. It's role is to integrate into your standard workflow to help you make rare generic task which commands you dont know by heart. For example, compressing or uncompressing a file, 
 
-## Installation
+## • Installation
 
 Use the package manager NPM or Yarn to install GPT.sh globally on your system.
 
@@ -22,7 +22,7 @@ npm install --global gptsh
 yarn global add gptsh
 ```
 
-## Getting started
+## • Getting started
 To use this tool, you will need to set [OpenAI API key](https://beta.openai.com/) either as an environment variable.
 ```bash
 OPENAI_SECRET_KEY=<YOUR_SECRET_KEY>
@@ -42,7 +42,7 @@ platform=linux
 ```
 
 
-## Usage
+## • Usage
 
 
 ```
@@ -60,7 +60,7 @@ Options:
       --help         Show help                                         [boolean]
 ```
 
-## Examples
+## • Examples
 ```bash
 $ gptsh install node 12 repository
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
@@ -97,8 +97,8 @@ $ gptsh Add a new user --platform aix
 mkuser username
 ```
 
-## Contributing
+## • Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-## License
+## • License
 [MIT](https://choosealicense.com/licenses/mit/)
