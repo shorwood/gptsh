@@ -13,7 +13,7 @@
   <a href="https://gitpod.io/#https://github.com/shorwood/gptsh"><img src="https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod&style=flat-square" alt="Gitpod ready-to-code"></a>
 </p>
 
-GPT.sh is a cross platform CLI tool built with NodeJS and powered by [Open AI's GPT-3](https://openai.com/). It's main purpose is to translate natural language questions and requests into shell commands. Heavily inspired by projects such as [nlsh](https://vimeo.com/427943407/98fe5258a7) and [cmdxyz](https://cmd.xyz/), it can easily be installed and used in conjunction with your classic shell environment.
+**gptsh** is a cross platform CLI tool built with NodeJS and powered by [Open AI's GPT-3](https://openai.com/). It's main purpose is to translate natural language questions and requests into shell commands. Heavily inspired by projects such as [nlsh](https://vimeo.com/427943407/98fe5258a7) and [cmdxyz](https://cmd.xyz/), it can easily be installed and used in conjunction with your classic shell environment.
 
 This tool is not meant as a complete replacement for all of you shell commands. It's role is to integrate into your standard shell workflow to help you make generic task which commands you dont know by heart. For example, when compressing or uncompressing a files, using new frameworks, searching files on your system and much more...
 
