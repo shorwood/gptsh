@@ -7,14 +7,12 @@
 </p>
   
 <p align="center">
-  <img src="https://img.shields.io/github/size/shorwood/gptsh" alt="GitHub file size in bytes">
-  <img src="https://img.shields.io/tokei/lines/shorwood/gptsh/master" alt="Lines of code">
-  <img src="https://img.shields.io/github/release-date/shorwood/gptsh" alt="GitHub Release Date">
-  <img src="https://img.shields.io/npm/v/gptsh" alt="npm">
-  <a href="https://gitpod.io/#https://github.com/shorwood/gptsh">
-    <img src="https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod" alt="Gitpod ready-to-code"></a>
+  <a href="https://github.com/shorwood/gptsh/blob/master/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/shorwood/gptsh&style=flat-square"></a>
+  <a href="https://www.npmjs.com/package/gptsh"><img alt="NPM Package Version" src="https://img.shields.io/npm/v/gptsh&style=flat-square"></a>
+  <a href="https://hub.docker.com/r/shorwood/gptsh"><img alt="Docker Image Version" src="https://img.shields.io/docker/v/shorwood/gptsh?label=docker&style=flat-square"></a>
+  <a href="https://gitpod.io/#https://github.com/shorwood/gptsh"><img src="https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod&style=flat-square" alt="Gitpod ready-to-code"></a>
 </p>
-
+![Docker Image Version (latest semver)](https://img.shields.io/docker/v/shorwood/gptsh?label=image&style=flat-square)
 
 GPT.sh is a cross platform CLI tool built with NodeJS and powered by [Open AI's GPT-3](https://openai.com/). It's main purpose is to translate natural language questions and requests into shell commands. Heavily inspired by projects such as [nlsh](https://vimeo.com/427943407/98fe5258a7) and [cmdxyz](https://cmd.xyz/), it can easily be installed and used in conjunction with your classic shell environment.
 
