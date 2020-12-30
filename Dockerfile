@@ -10,6 +10,7 @@ RUN yarn install
 #--- Copy source files and install bin
 COPY src ./src
 COPY data ./data
+COPY Dockerfile ./
 
 #--- Define entrypoint
 ENTRYPOINT ["node", "./src/index.js"]
