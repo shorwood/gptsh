@@ -4,12 +4,12 @@ on:
   push:
     branches:
       - master
-    tags:
-      - 'v*.*.*'
 
 jobs:
   bump-version:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: haya14busa/action-bumpr@v1
+      - name: "Automated Version Bump"
+        uses: "phips28/gh-action-bump-version@master"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
