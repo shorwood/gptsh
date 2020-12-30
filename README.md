@@ -1,4 +1,4 @@
-# GPT.sh - Hello, Dave.
+# gptsh - Hello, Dave.
 
 <p align="center">
   <a href="https://github.com/shorwood/gptsh">
