@@ -5,10 +5,12 @@
     <img src="assets/gptsh.png" alt="GPT.sh" width="836" height="418">
   </a>
   
-  <img src="https://img.shields.io/github/size/shorwood/gptsh" alt="GitHub file size in bytes">
-  <img src="https://img.shields.io/tokei/lines/shorwood/gptsh/master" alt="Lines of code">
-  <img src="https://img.shields.io/github/release-date/shorwood/gptsh" alt="GitHub Release Date">
-  <img src="https://img.shields.io/npm/v/gptsh" alt="npm">
+  <p>
+    <img src="https://img.shields.io/github/size/shorwood/gptsh" alt="GitHub file size in bytes">
+    <img src="https://img.shields.io/tokei/lines/shorwood/gptsh/master" alt="Lines of code">
+    <img src="https://img.shields.io/github/release-date/shorwood/gptsh" alt="GitHub Release Date">
+    <img src="https://img.shields.io/npm/v/gptsh" alt="npm">
+  </p>
 
 </p>
 
