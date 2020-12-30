@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://github.com/shorwood/gptsh">
-    <img src="https://github.com/shorwood/gptsh/raw/master/assets/gptsh.png" alt="GPT.sh" width="836">
+    <img src="https://github.com/shorwood/gptsh/raw/master/assets/gptsh.png" alt="gptsh" width="836">
   </a>
 </p>
   
@@ -21,13 +21,13 @@ This tool is not meant as a complete replacement for all of you shell commands. 
 
 <p align="center">
   <a href="https://github.com/shorwood/gptsh">
-    <img src="https://github.com/shorwood/gptsh/raw/master/assets/gptsh.gif" alt="GPT.sh" width="836">
+    <img src="https://github.com/shorwood/gptsh/raw/master/assets/gptsh.gif" alt="gptsh" width="836">
   </a>
 </p>
 
 ## • Installation
 
-Use the package manager NPM or Yarn to install GPT.sh globally on your system.
+Use the package manager NPM or Yarn to install gptsh globally on your system.
 ```bash
 npm install --global gptsh
 ```
