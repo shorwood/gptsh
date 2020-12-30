@@ -5,11 +5,11 @@
     <img src="assets/gptsh.png" alt="GPT.sh" width="836" height="418">
   </a>
   
-  ![GitHub file size in bytes](https://img.shields.io/github/size/shorwood/gptsh)
-  ![Lines of code](https://img.shields.io/tokei/lines/shorwood/gptsh/master)
-  ![GitHub Release Date](https://img.shields.io/github/release-date/shorwood/gptsh)
-  ![npm](https://img.shields.io/npm/v/gptsh)
-  
+  <img src="https://img.shields.io/github/size/shorwood/gptsh" alt="GitHub file size in bytes">
+  <img src="https://img.shields.io/tokei/lines/shorwood/gptsh/master" alt="Lines of code">
+  <img src="https://img.shields.io/github/release-date/shorwood/gptsh" alt="GitHub Release Date">
+  <img src="https://img.shields.io/npm/v/gptsh" alt="npm">
+
 </p>
 
 
