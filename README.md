@@ -4,7 +4,14 @@
   <a href="https://github.com/shorwood/gptsh">
     <img src="assets/gptsh.png" alt="GPT.sh" width="836" height="418">
   </a>
+  
+  ![GitHub file size in bytes](https://img.shields.io/github/size/shorwood/gptsh)
+  ![Lines of code](https://img.shields.io/tokei/lines/shorwood/gptsh/master)
+  ![GitHub Release Date](https://img.shields.io/github/release-date/shorwood/gptsh)
+  ![npm](https://img.shields.io/npm/v/gptsh)
+  
 </p>
+
 
 GPT.sh is a cross platform CLI tool built with NodeJS and powered by [Open AI's GPT-3](https://openai.com/). It's main purpose is to translate natural language questions and requests into shell commands. Heavily inspired by projects such as [nlsh](https://vimeo.com/427943407/98fe5258a7) and [cmdxyz](https://cmd.xyz/), it can easily be installed and used in conjunction with your classic shell environment.
 
