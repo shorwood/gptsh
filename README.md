@@ -31,13 +31,26 @@ This tool is not meant as a complete replacement for all of you shell commands. 
 ## • Installation
 
 Use the package manager NPM or Yarn to install GPT.sh globally on your system.
-
 ```bash
 npm install --global gptsh
 ```
-
 ```bash
 yarn global add gptsh
+```
+
+Or you can run the `shorwood/gptsh` docker image like so.
+```bash
+docker run --rm -e OPENAI_SECRET_KEY shorwood/gptsh <input>
+```
+```bash
+docker run --rm shorwood/gptsh <input> -s <YOUR_SECRET_KEY>
+```
+
+And while you're at it, alias that command for quick use
+```bash
+$ alias gptsh='docker run --rm -e OPENAI_SECRET_KEY shorwood/gptsh'
+$ gptsh Reset Nginx
+sudo service nginx restart
 ```
 
 ## • Getting started
@@ -49,7 +62,7 @@ OPENAI_ENGINE_ID=davinci
 
 As a option while executing the command.
 ```bash
-$ gptsh <input> --secret <YOUR_SECRET_KEY>
+gptsh <input> --secret <YOUR_SECRET_KEY>
 ```
 
 Or in the `~/.gptshrc` config file placed in your home directory.
