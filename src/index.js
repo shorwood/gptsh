@@ -8,13 +8,16 @@ const complete = require('./complete')
 const buildConfig = require('./buildConfig')
 const buildPrompt = require('./buildPrompt')
 
+//--- Get package name.
+const { name: appName } = require('../package.json');
+
 //--- Parse argv arguments using 'yargs' package.
 const argv = yargs(hideBin(process.argv))
-	.usage('Usage: $0 <input> [options]')
-	.example('$0 List all files of this directory | bash')
-	.example('$0 Install the lodash package --secret <YOUR_SECRET_KEY> | bash')
-	.example('$0 Delete the root directory --engine ada')
-	.example('$0 Add remote from github with name shorwood/gptsh --max-tokens 32')
+	.usage(`Usage: ${appName} <input> [options]`)
+	.example(`${appName} List all files of this directory | bash`)
+	.example(`${appName} Install the lodash package --secret <YOUR_SECRET_KEY> | bash`)
+	.example(`${appName} Delete the root directory --engine ada`)
+	.example(`${appName} Add remote from github with name shorwood/gptsh --max-tokens 32`)
 	.option('secret', {type: 'string', alias: 's', description: 'OpenAI API key for authentication'})
 	.option('engine', {type: 'string', alias: 'e', description: 'ID of the engine to use'})
 	.option('tokens', {type: 'number', alias: 't', description: 'Maximum number of tokens to consume', default: 100})
