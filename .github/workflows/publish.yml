@@ -1,13 +1,16 @@
 name: Publish
 
 on:
-  release:
-    types: [created]
+  push:
+    branches:
+      - master
+    tags:
+      - 'v*'
 
 jobs:
 
-  #--- Publish Image to Docker Hub
   publish-docker:
+    name: "Publish Image to Docker Hub"
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -19,8 +22,8 @@ jobs:
           repository: shorwood/gptsh
           auto_tag: true
 
-  #--- Publish Package to Github Package Registry
   publish-gpr:
+    name: "Publish Package to Github Package Registry"
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -33,8 +36,8 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
   
-  #--- Publish Package to NPM Package Registry
   publish-npm:
+    name: "Publish Package to NPM Package Registry"
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
