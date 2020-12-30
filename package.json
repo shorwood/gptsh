@@ -1,6 +1,6 @@
 {
   "name": "gptsh",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "GPT.sh is a CLI tool build with NodeJs and powered by Open AI's GPT-3. It's main purpose is to translate natural language questions and requests into Bash and Powershell commands.",
   "homepage": "https://github.com/shorwood/gptsh#readme",
   "bin": {
