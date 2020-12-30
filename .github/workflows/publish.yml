@@ -5,7 +5,7 @@ on:
     branches:
       - master
     tags:
-      - 'v*'
+      - 'v*.*.*'
 
 jobs:
 
@@ -14,13 +14,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: jerray/publish-docker-action@master
+      - uses: elgohr/Publish-Docker-Github-Action@master
         with:
+          name: shorwood/gptsh
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
-          registry: docker.pkg.github.com
-          repository: shorwood/shorwood/gptsh
-          auto_tag: true
+          tag_semver: true
 
   publish-gpr:
     name: "Publish Package to Github Package Registry"
