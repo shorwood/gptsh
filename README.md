@@ -7,8 +7,8 @@
 </p>
   
 <p align="center">
-  <a href="https://github.com/shorwood/gptsh/blob/master/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/shorwood/gptsh&style=flat-square"></a>
-  <a href="https://www.npmjs.com/package/gptsh"><img alt="NPM Package Version" src="https://img.shields.io/npm/v/gptsh&style=flat-square"></a>
+  <a href="https://github.com/shorwood/gptsh/blob/master/LICENSE"><img alt="GitHub" src="https://img.shields.io/github/license/shorwood/gptsh?style=flat-square"></a>
+  <a href="https://www.npmjs.com/package/gptsh"><img alt="NPM Package Version" src="https://img.shields.io/npm/v/gptsh?style=flat-square"></a>
   <a href="https://hub.docker.com/r/shorwood/gptsh"><img alt="Docker Image Version" src="https://img.shields.io/docker/v/shorwood/gptsh?label=docker&style=flat-square"></a>
   <a href="https://gitpod.io/#https://github.com/shorwood/gptsh"><img src="https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod&style=flat-square" alt="Gitpod ready-to-code"></a>
 </p>
