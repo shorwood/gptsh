@@ -1,2 +1,4 @@
 tasks:
-  - init: yarn install
+  - init: \
+    yarn \
+    && export alias gptsh='node /workspace/gptsh/src/index.js'
