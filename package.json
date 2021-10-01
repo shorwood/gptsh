@@ -7,7 +7,7 @@
     "gptsh": "./src/index.js"
   },
   "dependencies": {
-    "axios": "^0.21.1",
+    "axios": "^0.22.0",
     "dotenv": "^8.2.0",
     "lodash": "^4.17.20",
     "rc": "^1.2.8",
