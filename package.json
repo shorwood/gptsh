@@ -11,7 +11,7 @@
     "dotenv": "^8.2.0",
     "lodash": "^4.17.20",
     "rc": "^1.2.8",
-    "yargs": "^16.2.0"
+    "yargs": "^17.3.0"
   },
   "author": {
     "name": "Stanley Horwood",
