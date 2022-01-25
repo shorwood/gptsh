@@ -53,9 +53,9 @@ deep-extend@^0.6.0:
   integrity sha512-LOHxIOaPYdHlJRtCQfDIVZtfw/ufM8+rVj649RIHzcm/vGwQRXFt6OPqIFWsm2XEMrNIEtWR64sY1LEKD2vAOA==
 
 dotenv@^14.1.0:
-  version "14.1.0"
-  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-14.1.0.tgz#66e9c0c448501b006f4dd9f08080c9011c7a5e6c"
-  integrity sha512-h8V+Yfa8m0YSjf3Rgbno51cxWldb4PEixIJVL55VmW7uAfeLQKiaPrEUiBps+ARK9MeqjJgTf269OMmu6lOODQ==
+  version "14.3.0"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-14.3.0.tgz#40f537fe90e229d35361c66cf432903e0db49001"
+  integrity sha512-PCTcOQSXVo9FI1dB7AichJXMEvmiGCq0gnCpjfDUc8505uR+2MeLXWe+Ue4PN5UXa2isHSa78sr7L59fk+2mnQ==
 
 emoji-regex@^8.0.0:
   version "8.0.0"
